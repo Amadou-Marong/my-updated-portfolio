@@ -6,7 +6,7 @@ const Experience = () => {
   
     return (
         <div className="py-10 max-w-[1300px] mx-auto relative">
-            <div className="absolute w-2 bg-gradient-to-b from-gray-500 to-gray-800 h-full left-1/2 md:flex-1"></div>
+            <div className="hidden md:block absolute w-2 bg-gradient-to-b from-gray-500 to-gray-800 h-full left-1/2"></div>
             {experiences.map((exp, index) => {
                 return (
                     <div className={`flex ${index % 2 === 0 ?'justify-start': 'justify-end'} items-center my-8`} key={index}>
