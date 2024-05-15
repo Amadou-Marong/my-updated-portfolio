@@ -7,7 +7,7 @@ const Hero = () => {
       <div className='max-w-[400px] flex flex-row md:flex-col'>
         {/* <h1>Hi, I'm <span>Amadou Marong</span></h1> */}
         <p className="md:text-5xl sm:text-3xl text-xl tracking-tight mr-2">
-            Hi, I'm <span className='font-extrabold italic'>Amadou Marong </span><br />
+            Hi, I Am <span className='font-extrabold italic'>Amadou Marong </span><br />
             <TypeAnimation 
                 sequence={[
                     "Web developer",
@@ -16,7 +16,7 @@ const Hero = () => {
                     1000,
                     "IT Support",
                     1000
-                ]}
+                ]}b
                 speed={50}
                 repeat={Infinity}
             />
