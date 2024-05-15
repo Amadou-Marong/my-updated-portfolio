@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import profile from './assets/img1.png'
 const Hero = () => {
   return (
-    <div className="my-7 md:my-0 max-w-[1300px] md:h-[70vh] mx-auto grid md:grid-cols-4 place-items-center">
+    <div className="my-7 md:my-0 max-w-[1300px] md:h-[100vh] mx-auto grid md:grid-cols-4 place-items-center">
       <div className='max-w-[400px] flex flex-row md:flex-col'>
         {/* <h1>Hi, I'm <span>Amadou Marong</span></h1> */}
         <p className="md:text-5xl sm:text-3xl text-xl tracking-tight mr-2">
