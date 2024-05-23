@@ -16,15 +16,17 @@ const Hero = () => {
                     1000,
                     "IT Support",
                     1000
-                ]}b
+                ]}
                 speed={50}
                 repeat={Infinity}
             />
         </p>
-        <button href="/" title='Download CV' className='mt-6 p-2 bg-blue-700 rounded-xl max-w-[280px]'>Download CV</button>
+        <div>
+            <button href="/" title='Download CV' className='mt-6 p-2 bg-gray-700 rounded-xl max-w-[280px] text-white'>Download CV</button>
+        </div>
       </div>
       <div className='md:col-span-2 md:ml-28'>
-        <img src={profile} alt="profile" className='w-[200px] md:w-[400px] h-auto'/>
+        <img src={profile} alt="profile" className='w-[200px] md:w-[400px] h-auto rounded-full backdrop-invert bg-white/30'/>
       </div>
       <div className='text-5xl flex flex-row md:flex-col gap-10 '>
         <a href=""><AiFillGithub /></a>
