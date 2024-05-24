@@ -17,8 +17,8 @@ const Navbar = () => {
             <ul className='hidden md:flex font-semibold'>
                 <li className="p-5"><Link to='/' smooth={true} ofset={50} duration={5000}>Home</Link></li>
                 <li className="p-5"><Link to='/about' smooth={true} ofset={50} duration={5000}>About</Link></li>
-                <li className="p-5"><Link to='/projects' smooth={true} ofset={50} duration={5000}>Projects</Link></li>
-                <li className="p-5"><Link to='/experience' smooth={true} ofset={50} duration={5000}>Experience</Link></li>
+                <li className="p-5"><Link to='/projects' smooth={true} ofset={50} duration={5000}>Portfolio</Link></li>
+                <li className="p-5"><Link to='/experience' smooth={true} ofset={50} duration={5000}>Blog</Link></li>
                 <li className="p-5"><Link to='/contact' smooth={true} ofset={50} duration={5000}>Contact</Link></li>
             </ul>
             <div onClick={toggleNav} className="block md:hidden text-2xl font-bold p-4 bg-gray-600 text-white rounded-full mr-3 transition-opacity from-gray-600 duration-500">
@@ -27,8 +27,8 @@ const Navbar = () => {
             <ul className={`md:hidden ${nav ? 'block' : 'hidden'} absolute z-10 top-24 left-0 w-full bg-gray-600 text-white`}>
                 <li className="p-5"><Link to='/' smooth={true} ofset={50} duration={5000}>Home</Link></li>
                 <li className="p-5"><Link to='/about' smooth={true} ofset={50} duration={5000}>About</Link></li>
-                <li className="p-5"><Link to='/projects' smooth={true} ofset={50} duration={5000}>Projects</Link></li>
-                <li className="p-5"><Link to='/experience' smooth={true} ofset={50} duration={5000}>Experience</Link></li>
+                <li className="p-5"><Link to='/projects' smooth={true} ofset={50} duration={5000}>Portfolio</Link></li>
+                <li className="p-5"><Link to='/experience' smooth={true} ofset={50} duration={5000}>Blog</Link></li>
                 <li className="p-5"><Link to='/contact' smooth={true} ofset={50} duration={5000}>Contact</Link></li>
             </ul>
         </nav>
