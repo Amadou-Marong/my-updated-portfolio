@@ -33,7 +33,7 @@ const Portfolio = () => {
             <div className="p-4">
               <h2 className='text-gray-200'>Project #1</h2>
               <p className="text-gray-400">
-                Lorem ipsum dolor sit amet.
+                A user interface for a login page. of the GNPC Login Page
               </p>
             </div>
 
