@@ -111,7 +111,7 @@ const Portfolio = () => {
           </div>
           
           <div className="rounded-xl bg-gradient-to-b from-gray-500 to-gray-800 overflow-hidden shadow-xl z-10">
-            <a href="" className="group col-span-3">
+            <a href="https://ourhomepage.netlify.app" className="group col-span-3">
               <img src={project6} alt="project 6" className='h-[200px] w-full object-cover object-top transition duration-200 group-hover:scale-110 rounded-lg'/>
             </a>
             <div className="p-4">
@@ -123,7 +123,7 @@ const Portfolio = () => {
 
             <div className="flex flex-row gap-3 justify-end text-white mb-3 mr-3">
               <a href="#" className="cursor-pointer"><AiFillGithub className='w-[35px] h-auto'/> </a>
-              <a href="#" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
+              <a href="https://ourhomepage.netlify.app" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
             </div>  
           </div>
 
