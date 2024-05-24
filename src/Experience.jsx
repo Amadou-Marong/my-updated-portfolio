@@ -1,7 +1,7 @@
 const Experience = () => {
     const experiences = [
         {company: "HMZ Creatives", duration: "2022-2023", description: "Served as a frontend Web Developer Intern"},
-        {company: "Gambia National Petroleum Company", duration: "2023-2024", description: "A Junior Software Developer and IT Support Intern"}
+        {company: "Gambia National Petroleum Company", duration: "2023-Present", description: "A Junior Software Developer and IT Support Intern"}
     ]
   
     return (
