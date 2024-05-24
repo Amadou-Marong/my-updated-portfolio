@@ -37,7 +37,7 @@ const About = () => {
             <img
               src={aboutImg}
               alt="about img"
-              className="object-cover rounded-full w-[40vw] backdrop-invert bg-white/30"
+              className="object-cover rounded-full w-[40vw] backdrop-invert bg-white/30  object-top transition duration-200 hover:scale-110 cursor-pointer"
             />
           </div>
         </div>

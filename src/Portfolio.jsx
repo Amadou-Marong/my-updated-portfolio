@@ -11,7 +11,7 @@ const Portfolio = () => {
       <div className='pt-16 pb-10 sm:pb-16 lg:gb-16 max-w-[1400] mx-auto] px-10'>
         <div className="grid md:grid-cols-2 mb-6">
           <div>
-            <img src={work} className='w-[320px] mx-auto' alt="" />
+            <img src={work} className='w-[400px] mx-auto h-[300px]  object-cover object-top transition duration-200 hover:scale-110 rounded-lg cursor-pointer' alt="" />
           </div>
           <div className="text-gray-800 my-auto text-left">
             <h3 className="text-5xl text-center leading-7 text-gray-800 font-semibold mb-8 tracking-tight mt-10">
