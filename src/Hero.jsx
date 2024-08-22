@@ -33,7 +33,7 @@ const Hero = () => {
         <img src={profile} alt="profile" className='w-[200px] md:w-[400px] h-auto rounded-full backdrop-invert bg-white/30'/>
       </div>
       <div className='text-5xl flex flex-row md:flex-col gap-10'>
-        <a href=""><AiFillGithub /></a>
+        <a href="https://github.com/Amadou-Marong"><AiFillGithub /></a>
         <a href=""><AiFillLinkedin /></a>
         <a href=""><AiFillMail /></a>
       </div>
