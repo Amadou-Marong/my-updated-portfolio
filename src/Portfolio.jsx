@@ -1,6 +1,7 @@
 import project1 from './assets/gnpc-login-page.png'
 import project2 from './assets/birthdays.png'
-import project3 from './assets/tours.png'
+// import project3 from './assets/tours.png'
+import project3 from './assets/AdminDashboard.png'
 import project4 from './assets/strapi.png'
 import project5 from './assets/menu.png'
 import project6 from './assets/Nice-Website-Design.jpg'
@@ -60,19 +61,20 @@ const Portfolio = () => {
           </div>
           
           <div className="rounded-xl bg-gradient-to-b from-gray-500 to-gray-800 overflow-hidden shadow-xl z-10">
-            <a href="https://ahmad-travel-tours.netlify.app" className="group col-span-3">
+            <a href="ef7-studious-hubble.circumeo-apps.net" className="group col-span-3">
               <img src={project3} alt="project 1" className='h-[200px] w-full object-cover object-top transition duration-200 group-hover:scale-110 rounded-lg'/>
             </a>
             <div className="p-4">
-              <h2 className='text-gray-200'>Project #3</h2>
+              <h2 className='text-gray-200'>Ticketting Management System</h2>
               <p className="text-gray-400">
-                Lorem ipsum dolor sit amet.
+                a ticketting management system for a our IT Department to help and manage IT related issues
+                a have a test of the app login with username as admin and password: admin
               </p>
             </div>
 
             <div className="flex flex-row gap-3 justify-end text-white mb-3 mr-3">
               <a href="#" className="cursor-pointer"><AiFillGithub className='w-[35px] h-auto'/> </a>
-              <a href="https://ahmad-travel-tours.netlify.app" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
+              <a href="ef7-studious-hubble.circumeo-apps.net" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
             </div>  
           </div>
           
@@ -115,9 +117,9 @@ const Portfolio = () => {
               <img src={project6} alt="project 6" className='h-[200px] w-full object-cover object-top transition duration-200 group-hover:scale-110 rounded-lg'/>
             </a>
             <div className="p-4">
-              <h2 className='text-gray-200'>Project #6</h2>
+              <h2 className='text-gray-200'>Ecomerce Website</h2>
               <p className="text-gray-400">
-                Lorem ipsum dolor sit amet.
+                an Ecommerce website for my web2 project work
               </p>
             </div>
 
