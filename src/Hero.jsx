@@ -22,7 +22,7 @@ const Hero = () => {
           />
         </p>
         <div>
-          <a href="./downloads/MyCV_2024.pdf" download="MyCV_2024" title='Download CV'>
+          <a href="./downloads/MyCV_2024.pdf" download="AmadouMarong_CV_2024" title='Download CV'>
             <button className='mt-6 p-2 bg-gray-700 rounded-xl max-w-[280px] text-white'>
               Download CV
             </button>
