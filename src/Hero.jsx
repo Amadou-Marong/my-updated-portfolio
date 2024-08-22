@@ -34,8 +34,8 @@ const Hero = () => {
       </div>
       <div className='text-5xl flex flex-row md:flex-col gap-10'>
         <a href="https://github.com/Amadou-Marong"><AiFillGithub /></a>
-        <a href=""><AiFillLinkedin /></a>
-        <a href=""><AiFillMail /></a>
+        <a href="https://www.linkedin.com/in/amadou-marong-b27008291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><AiFillLinkedin /></a>
+        <a href="marongamadou6@gmail.com"><AiFillMail /></a>
       </div>
     </div>
   );
