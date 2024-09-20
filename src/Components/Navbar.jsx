@@ -1,4 +1,4 @@
-import logo from './assets/My-Logo-1.png'
+import logo from '../assets/My-Logo-1.png'
 import { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-scroll'
