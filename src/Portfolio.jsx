@@ -9,7 +9,7 @@ import work from './assets/my-work.png'
 import { AiFillChrome, AiFillGithub } from 'react-icons/ai'
 const Portfolio = () => {
     return (
-      <div className='pt-16 pb-10 sm:pb-16 lg:gb-16 max-w-[1400] mx-auto] px-10'>
+      <div className='pt-16 pb-10 sm:pb-16 lg:gb-16 max-w-[1400] mx-auto] px-10' id='projects'>
         <div className="grid md:grid-cols-2 mb-6">
           <div>
             <img src={work} className='w-[400px] mx-auto h-[300px]  object-cover object-top transition duration-200 hover:scale-110 rounded-lg cursor-pointer' alt="" />
