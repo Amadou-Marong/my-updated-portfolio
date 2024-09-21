@@ -4,6 +4,7 @@ import Hero from "./Hero"
 import Navbar from "./Components/Navbar"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   )
 }
