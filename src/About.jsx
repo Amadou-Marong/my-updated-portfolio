@@ -1,4 +1,4 @@
-import aboutImg from './assets/workplace.jpg';
+import aboutImg from './assets/aboutImg.jpeg';
 import AnimatedSection from './Components/AnimatedSection'; // Import your animated component
 
 const About = () => {

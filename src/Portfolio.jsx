@@ -5,7 +5,7 @@ import project3 from './assets/AdminDashboard.png'
 import project4 from './assets/strapi.png'
 import project5 from './assets/menu.png'
 import project6 from './assets/Nice-Website-Design.jpg'
-import work from './assets/my-work.png'
+import work from './assets/aboutImg.jpeg'
 import { AiFillChrome, AiFillGithub } from 'react-icons/ai'
 import AnimatedSection from './Components/AnimatedSection'
 const Portfolio = () => {
