@@ -7,8 +7,10 @@ import project5 from './assets/menu.png'
 import project6 from './assets/Nice-Website-Design.jpg'
 import work from './assets/my-work.png'
 import { AiFillChrome, AiFillGithub } from 'react-icons/ai'
+import AnimatedSection from './Components/AnimatedSection'
 const Portfolio = () => {
     return (
+      <AnimatedSection>
       <div className='pt-16 pb-10 sm:pb-16 lg:gb-16 max-w-[1400] mx-auto] px-10' id='projects'>
         <div className="grid md:grid-cols-2 mb-6">
           <div>
@@ -132,6 +134,7 @@ const Portfolio = () => {
 
         </div> 
       </div>
+      </AnimatedSection>
     );
 }
 export default Portfolio;
