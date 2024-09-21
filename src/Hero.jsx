@@ -29,7 +29,7 @@ const Hero = () => {
           />
         </p>
         <div>
-          <a href="./downloads/MyCV_2024.pdf" download="AmadouMarong_CV_2024" title='Download CV'>
+          <a href="./downloads/Amadou_Marong_CV_2024.pdf" download="Amadou_Marong_CV_2024" title='Download CV'>
             <motion.button 
               className='mt-6 p-2 bg-gray-700 rounded-xl max-w-[280px] text-white'
               whileHover={{ scale: 1.05 }}
