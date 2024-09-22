@@ -1,7 +1,9 @@
 import { AiOutlineFacebook, AiOutlineTwitter, AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
+import AnimatedSection from "./AnimatedSection";
 
 const Footer = () => {
   return (
+    <AnimatedSection>
     <footer className="bg-gray-900 text-white py-10 px-4">
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
         
@@ -49,6 +51,7 @@ const Footer = () => {
         <p className="text-gray-400">&copy; 2024 Amadou Marong. All rights reserved.</p>
       </div>
     </footer>
+    </AnimatedSection>
   );
 };
 
