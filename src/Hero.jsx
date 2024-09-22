@@ -2,9 +2,11 @@ import { TypeAnimation } from 'react-type-animation';
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import profile from './assets/img1.png';
+import AnimatedSection from './Components/AnimatedSection';
 
 const Hero = () => {
   return (
+    <AnimatedSection>
     <div className="my-7 md:my-0 max-w-[1300px] md:h-[100vh] mx-auto grid md:grid-cols-4 place-items-center">
       {/* Animated intro text */}
       <motion.div 
@@ -63,6 +65,7 @@ const Hero = () => {
         <a href="marongamadou6@gmail.com"><AiFillMail /></a>
       </motion.div>
     </div>
+    </AnimatedSection>
   );
 };
 

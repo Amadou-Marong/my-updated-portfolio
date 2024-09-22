@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 const AnimatedSection = ({ children }) => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Only trigger the animation once
     threshold: 0.2,    // Trigger when 20% of the section is in view
   });
 
