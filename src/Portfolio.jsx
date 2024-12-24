@@ -1,5 +1,5 @@
-import project1 from './assets/gnpc-login-page.png'
-import project2 from './assets/birthdays.png'
+import project1 from './assets/EmployManagementDashboard.png'
+import project2 from './assets/MyLeavesPage.png'
 // import project3 from './assets/tours.png'
 import project3 from './assets/AdminDashboard.png'
 import project4 from './assets/strapi.png'
@@ -30,29 +30,29 @@ const Portfolio = () => {
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-6'>
           <div className="rounded-xl bg-gradient-to-b from-gray-500 to-gray-800 overflow-hidden shadow-xl z-10">
-            <a href="https://ahmad-todos.netlify.app" className="group col-span-3">
+            <a href="" className="group col-span-3">
               <img src={project1} alt="project 1" className='h-[200px] w-full object-cover object-top transition duration-200 group-hover:scale-110 rounded-lg'/>
             </a>
             <div className="p-4">
-              <h2 className='text-gray-200'>Project #1</h2>
+              <h2 className='text-gray-200'>Employee Management System</h2>
               <p className="text-gray-400">
-                A user interface for a login page. of the GNPC Login Page
+                An employee management system with modules for managing leaves and tickets. This system helps in organizing and tracking employee information, leave requests, and IT support tickets efficiently.
               </p>
             </div>
 
             <div className="flex flex-row gap-3 justify-end text-white mb-3 mr-3">
               <a href="#" className="cursor-pointer"><AiFillGithub className='w-[35px] h-auto'/> </a>
-              <a href="https://ahmad-todos.netlify.app" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
+              <a href="" className="cursor-pointer"><AiFillChrome className='w-[35px] h-auto'/> </a>
             </div>  
           </div>
           <div className="rounded-xl bg-gradient-to-b from-gray-500 to-gray-800 overflow-hidden shadow-xl z-10">
-            <a href="https://ahmad-birthdays.netlify.app" className="group col-span-3">
+            <a href="" className="group col-span-3">
               <img src={project2} alt="project 2" className='h-[200px] w-full object-cover object-top transition duration-200 group-hover:scale-110 rounded-lg'/>
             </a>
             <div className="p-4">
-              <h2 className='text-gray-200'>Project #2</h2>
+              <h2 className='text-gray-200'>Employee Management System</h2>
               <p className="text-gray-400">
-                Lorem ipsum dolor sit amet.
+                A comprehensive leave management system that allows employees to apply for leaves, view leave balances, and track leave history. It also includes an approval workflow for managers to review and approve leave requests.
               </p>
             </div>
 
