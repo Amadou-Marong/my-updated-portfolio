@@ -11,7 +11,7 @@ const About = () => {
               About <span className="text-blue-400">Me</span>
             </h3>
             <p className="text-xl text-gray-400 my-8">
-              Hi, I'm Amadou Marong, a Web Developer and Junior Software Engineer specializing in frontend development with Vue.js and React.js, with experience in UX/UI design and backend development with Laravel and Django.
+              Hi, I&apos;m Amadou Marong, a Web Developer and Junior Software Engineer specializing in frontend development with Vue.js and React.js, with experience in UX/UI design and backend development with Laravel and Django.
             </p>
           </div>
           <div className="w-[500px]">
