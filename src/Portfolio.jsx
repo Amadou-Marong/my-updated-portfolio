@@ -2,7 +2,8 @@ import project1 from './assets/EmployManagementDashboard.png'
 import project2 from './assets/MyLeavesPage.png'
 // import project3 from './assets/tours.png'
 import project3 from './assets/AdminDashboard.png'
-import project4 from './assets/strapi.png'
+// import project4 from './assets/strapi.png'
+import project4 from './assets/QuizApp.png'
 import project5 from './assets/menu.png'
 import project6 from './assets/Nice-Website-Design.jpg'
 import work from './assets/aboutImg.jpeg'
@@ -49,10 +50,10 @@ const Portfolio = () => {
           live: 'https://ef7-studious-hubble.circumeo-apps.net/'
         }, {
           img: project4,
-          title: 'Project #4',
-          description: 'Lorem ipsum dolor sit amet.',
-          github: '#',
-          live: '#'
+          title: 'Quiz App',
+          description: 'A quiz app for creating and taking quizzes. The app allows users to create quizzes and take quizzes. Test the app with username: admin and password: admin.',
+          github: 'https://github.com/Amadou-Marong/QuizApp.git',
+          live: 'https://quizapp-1-dncj.onrender.com'
         }, {
           img: project5,
           title: 'Project #5',
