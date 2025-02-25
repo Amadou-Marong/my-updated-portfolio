@@ -5,7 +5,7 @@ import project3 from './assets/AdminDashboard.png'
 // import project4 from './assets/strapi.png'
 import project4 from './assets/QuizApp.png'
 import project5 from './assets/menu.png'
-import project6 from './assets/Nice-Website-Design.jpg'
+import project6 from './assets/dalasiCoinFlip.png'
 import work from './assets/aboutImg.jpeg'
 import { AiFillChrome, AiFillGithub } from 'react-icons/ai'
 import AnimatedSection from './Components/AnimatedSection'
@@ -62,10 +62,10 @@ const Portfolio = () => {
           live: 'https://ahmad-food-menu.netlify.app'
         }, {
           img: project6,
-          title: 'Ecommerce Website',
-          description: 'An Ecommerce website for my web2 project work.',
-          github: '#',
-          live: 'https://ourhomepage.netlify.app'
+          title: 'Coin Flip App',
+          description: 'A coin flip app for fun.',
+          github: 'https://github.com/Amadou-Marong/reactjs-18-course.git',
+          live: 'https://dalasi-coin-flip.netlify.app/'
         }].map((project, index) => (
           <div key={index} className="rounded-xl bg-gradient-to-b from-gray-500 to-gray-800 overflow-hidden shadow-xl z-10">
           <a href={project.live} className="group col-span-3">
