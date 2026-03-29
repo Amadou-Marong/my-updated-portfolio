@@ -4,7 +4,7 @@ import Hero from "./Hero"
 import Navbar from "./components/common/Navbar"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
-import Footer from "./components/Footer"
+import Footer from "./components/common/Footer"
 import { Button } from "./components/ui/button"; 
 
 
