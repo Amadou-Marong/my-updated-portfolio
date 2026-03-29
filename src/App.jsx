@@ -1,4 +1,4 @@
-import About from "./About"
+import About from "./components/portfolio/AboutSection"
 import Experience from "./components/portfolio/ExperienceSection"
 import Hero from "./components/portfolio/HeroSection"
 import Navbar from "./components/common/Navbar"
