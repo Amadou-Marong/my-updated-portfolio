@@ -4,6 +4,7 @@ import { queryClientInstance } from '@/lib/query-client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 import { Toaster } from './components/ui/toaster';
+import PageNotFound from './pages/PageNotFound';
 // import PageNotFound from './lib/PageNotFound';
 // import { AuthProvider, useAuth } from '@/lib/AuthContext';
 // import UserNotRegisteredError from '@/components/UserNotRegisteredError';
@@ -37,7 +38,7 @@ const AuthenticatedApp = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      {/* <Route path="*" element={<PageNotFound />} /> */}
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 };
