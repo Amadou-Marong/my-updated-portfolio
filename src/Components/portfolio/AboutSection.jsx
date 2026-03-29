@@ -4,11 +4,11 @@ import { Code2, Palette, Server, Terminal } from "lucide-react";
 
 const skills = [
   { name: "React.js", level: 90 },
-  { name: "Vue.js", level: 85 },
+  { name: "Vue.js", level: 75 },
   { name: "JavaScript", level: 92 },
   { name: "HTML/CSS", level: 95 },
-  { name: "Laravel", level: 78 },
-  { name: "Django", level: 75 },
+  { name: "Laravel", level: 70 },
+  { name: "Django", level: 90 },
   { name: "Figma", level: 80 },
   { name: "Git", level: 88 },
 ];
