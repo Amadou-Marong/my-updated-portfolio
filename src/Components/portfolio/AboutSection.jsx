@@ -59,8 +59,8 @@ export default function AboutSection() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <motion.p variants={fadeInUp} custom={0} className="text-muted-foreground text-lg leading-relaxed font-inter mb-6">
-              I'm Amadou Marong, a Web Developer and Junior Software Engineer specializing 
-              in frontend development with Vue.js and React.js. I combine clean code with 
+              I'm Amadou Marong, a Web Developer and Software Engineer specializing 
+              in backend development with Laravel and Django. I combine clean code with 
               intuitive design to build applications that users love.
             </motion.p>
             <motion.p variants={fadeInUp} custom={1} className="text-muted-foreground text-lg leading-relaxed font-inter mb-10">
