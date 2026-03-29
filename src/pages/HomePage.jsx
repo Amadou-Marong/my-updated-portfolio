@@ -10,7 +10,7 @@ import Navbar from "../components/common/Navbar";
 import ContactSection from "../components/portfolio/ContactSection";
 import Footer from "../components/common/Footer";
 
-import HeroImage from "../assets/newupdate/hero.png";
+import HeroImage from "../assets/newupdate/MyHeroImage.png";
 
 import FleetTracker from "../assets/newupdate/FleetTracker.png";
 import LeaveSystem from "../assets/newupdate/AllLeaves.png";
