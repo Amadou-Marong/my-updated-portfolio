@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import profile from './assets/img1.png';
-import AnimatedSection from './Components/AnimatedSection';
+import AnimatedSection from './components/AnimatedSection';
 
 const Hero = () => {
   return (

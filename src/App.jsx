@@ -1,10 +1,11 @@
 import About from "./About"
 import Experience from "./Experience"
 import Hero from "./Hero"
-import Navbar from "./Components/Navbar"
+import Navbar from "./components/Navbar"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
-import Footer from "./Components/Footer"
+import Footer from "./components/Footer"
+import { Button } from "./components/ui/button"; 
 
 
 function App() {
