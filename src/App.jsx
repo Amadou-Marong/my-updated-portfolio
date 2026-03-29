@@ -2,7 +2,7 @@ import About from "./components/portfolio/AboutSection"
 import Experience from "./components/portfolio/ExperienceSection"
 import Hero from "./components/portfolio/HeroSection"
 import Navbar from "./components/common/Navbar"
-import Portfolio from "./Portfolio"
+import Portfolio from "./components/portfolio/PortfolioSection"
 import Contact from "./Contact"
 import Footer from "./components/common/Footer"
 import { Button } from "./components/ui/button"; 
