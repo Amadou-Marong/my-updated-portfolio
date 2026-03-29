@@ -1,16 +1,35 @@
+import React from "react";
+// import Navbar from "../components/portfolio/Navbar";
+import HeroSection from "../components/portfolio/HeroSection";
+import AboutSection from "../components/portfolio/AboutSection";
+import ExperienceSection from "../components/portfolio/ExperienceSection";
 import PortfolioSection from "../components/portfolio/PortfolioSection";
-import ContactSection from "../components/portfolio/ContactSection";
-import Footer from "../components/portfolio/Footer";
+// import ContactSection from "../components/portfolio/ContactSection";
+// import Footer from "../components/portfolio/Footer";
 import Navbar from "../components/common/Navbar";
+import ContactSection from "../components/portfolio/ContactSection";
+import Footer from "../components/common/Footer";
 
-const PROFILE_IMAGE = "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/215880abf_generated_c33380d7.png";
+import HeroImage from "../assets/newupdate/hero.png";
+
+import FleetTracker from "../assets/newupdate/FleetTracker.png";
+import LeaveSystem from "../assets/newupdate/AllLeaves.png";
+import TicketingManager from "../assets/newupdate/tickets.png";
+import BiometricAttendance from "../assets/newupdate/ReportGenerated.png";
+
+
+const PROFILE_IMAGE = HeroImage;
+
 
 const PROJECT_IMAGES = [
-  "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/cabdccc66_generated_6ea2f189.png",
-  "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/b96e3f3e9_generated_fac9c975.png",
-  "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/fefc5d002_generated_dd080c29.png",
-  "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/f07c412b6_FleetTracker.png",
+  FleetTracker,
+  LeaveSystem,
+  TicketingManager,
+  BiometricAttendance
 ];
+
+console.log(PROJECT_IMAGES);
+
 
 export default function HomePage() {
   return (

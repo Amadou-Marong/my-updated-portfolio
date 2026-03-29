@@ -12,22 +12,15 @@ const fadeInUp = {
 };
 
 export default function PortfolioSection({ projectImages }) {
+  console.log(projectImages);
+  
   const projects = [
     {
       title: "GPS Fleet Tracker",
       description:
         "A web-based system that uses GPS technology to monitor driver location, speed, and total distance travelled in real time. Features live map tracking, overspeed alerts, trip history, and a driver app — giving fleet managers full visibility over their vehicles.",
-      image: projectImages[3],
-      tags: ["React.js", "Leaflet.js", "Node.js", "WebSocket"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Employee Management System",
-      description:
-        "A comprehensive system with modules for managing leaves, tickets, and employee information. Helps in organizing and tracking employee data, leave requests, and IT support tickets efficiently.",
       image: projectImages[0],
-      tags: ["Vue.js", "Laravel", "MySQL", "Figma"],
+      tags: ["React.js", "Leaflet.js"],
       github: "#",
       live: "#",
     },
@@ -45,7 +38,16 @@ export default function PortfolioSection({ projectImages }) {
       description:
         "A ticketing management system for the IT Department to help manage IT-related issues. Features priority management, status tracking, and assignment workflows.",
       image: projectImages[2],
-      tags: ["Vue.js", "Laravel", "Bootstrap"],
+      tags: ["React.js", "Django", "PostgreSQL", "Django Rest Framework", "Django Channels"],
+      github: "#",
+      live: "#",
+    },
+    {
+      title: "Biometric Time Attendance System",
+      description:
+        "A custom web-based biometric attendance system integrated with ZKTeco devices to monitor and track employee attendance across multiple stations. Features real-time syncing, centralized live monitoring, offline raw attendance file uploads for unsynced devices, and attendance report generation for efficient workforce management.",
+      image: projectImages[3],
+      tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk Library", "Docker", "Nginx"],
       github: "#",
       live: "#",
     },
