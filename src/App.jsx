@@ -1,5 +1,5 @@
 import About from "./About"
-import Experience from "./Experience"
+import Experience from "./components/portfolio/ExperienceSection"
 import Hero from "./components/portfolio/HeroSection"
 import Navbar from "./components/common/Navbar"
 import Portfolio from "./Portfolio"
