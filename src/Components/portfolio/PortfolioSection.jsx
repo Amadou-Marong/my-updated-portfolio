@@ -81,8 +81,8 @@ export default function PortfolioSection({ projectImages }) {
       image: projectImages[2],
       tags: ["React.js", "Django", "PostgreSQL", "Django Rest Framework", "Django Channels"],
       github: "https://github.com/Amadou-Marong/TickettingHelpdeskManager.git",
-      live: "#",
-      internal: true,
+      live: "https://ticketting-helpdesk.netlify.app/",
+      internal: false,
     },
     {
       title: "Biometric Time Attendance System",
