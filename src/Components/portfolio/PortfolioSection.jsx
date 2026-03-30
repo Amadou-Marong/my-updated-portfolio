@@ -14,11 +14,50 @@ const fadeInUp = {
 export default function PortfolioSection({ projectImages }) {
   console.log(projectImages);
   
+  // const projects = [
+  //   {
+  //     title: "GPS Fleet Tracker",
+  //     description:
+  //       "A web-based system that uses GPS technology to monitor driver location, speed, and total distance travelled in real time. Features live map tracking, overspeed alerts, trip history, and a driver app — giving fleet managers full visibility over their vehicles.",
+  //     image: projectImages[0],
+  //     tags: ["React.js", "Leaflet.js"],
+  //     github: "https://github.com/Amadou-Marong/FleetGPSTracker.git",
+  //     live: "https://fleet-gps-tracker.netlify.app",
+  //   },
+  //   {
+  //     title: "Leave Management System",
+  //     description:
+  //       "A leave management system allowing employees to apply for leaves, view balances, and track history. Includes an approval workflow for managers to review and approve leave requests.",
+  //     image: projectImages[1],
+  //     tags: ["React.js", "Django", "PostgreSQL"],
+  //     github: "https://github.com/Amadou-Marong/GnpcLeaveSystem-Demo",
+  //     live: "https://gnpc-leave-management.netlify.app/",
+  //   },
+  //   {
+  //     title: "Ticketing Management System",
+  //     description:
+  //       "A ticketing management system for the IT Department to help manage IT-related issues. Features priority management, status tracking, and assignment workflows.",
+  //     image: projectImages[2],
+  //     tags: ["React.js", "Django", "PostgreSQL", "Django Rest Framework", "Django Channels"],
+  //     github: "https://github.com/Amadou-Marong/TickettingHelpdeskManager.git",
+  //     live: "#",
+  //   },
+  //   {
+  //     title: "Biometric Time Attendance System",
+  //     description:
+  //       "A custom web-based biometric attendance system integrated with ZKTeco devices to monitor and track employee attendance across multiple stations. Features real-time syncing, centralized live monitoring, offline raw attendance file uploads for unsynced devices, and attendance report generation which includes AI report generation using natural language prompts for efficient workforce management.",
+  //     image: projectImages[3],
+  //     tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk Library", "Docker", "Nginx"],
+  //     github: "https://github.com/Amadou-Marong/ZKTecoGNPC.git",
+  //     live: "#",
+  //   },
+  // ];
+
   const projects = [
     {
       title: "GPS Fleet Tracker",
       description:
-        "A web-based system that uses GPS technology to monitor driver location, speed, and total distance travelled in real time. Features live map tracking, overspeed alerts, trip history, and a driver app — giving fleet managers full visibility over their vehicles.",
+        "A web-based fleet tracking system that uses GPS technology to monitor driver location, speed, and distance traveled in real time. Includes live map tracking, overspeed alerts, trip history, and a driver app for complete fleet visibility.",
       image: projectImages[0],
       tags: ["React.js", "Leaflet.js"],
       github: "https://github.com/Amadou-Marong/FleetGPSTracker.git",
@@ -27,7 +66,7 @@ export default function PortfolioSection({ projectImages }) {
     {
       title: "Leave Management System",
       description:
-        "A leave management system allowing employees to apply for leaves, view balances, and track history. Includes an approval workflow for managers to review and approve leave requests.",
+        "A leave management platform that allows employees to apply for leave, view balances, and track request history. Includes an approval workflow for managers to review and approve leave requests efficiently.",
       image: projectImages[1],
       tags: ["React.js", "Django", "PostgreSQL"],
       github: "https://github.com/Amadou-Marong/GnpcLeaveSystem-Demo",
@@ -36,7 +75,7 @@ export default function PortfolioSection({ projectImages }) {
     {
       title: "Ticketing Management System",
       description:
-        "A ticketing management system for the IT Department to help manage IT-related issues. Features priority management, status tracking, and assignment workflows.",
+        "An internal IT helpdesk system built to manage and track support issues. Features ticket prioritization, status tracking, assignment workflows, and streamlined issue resolution for IT operations.",
       image: projectImages[2],
       tags: ["React.js", "Django", "PostgreSQL", "Django Rest Framework", "Django Channels"],
       github: "https://github.com/Amadou-Marong/TickettingHelpdeskManager.git",
@@ -45,9 +84,9 @@ export default function PortfolioSection({ projectImages }) {
     {
       title: "Biometric Time Attendance System",
       description:
-        "A custom web-based biometric attendance system integrated with ZKTeco devices to monitor and track employee attendance across multiple stations. Features real-time syncing, centralized live monitoring, offline raw attendance file uploads for unsynced devices, and attendance report generation which includes AI report generation using natural language prompts for efficient workforce management.",
+        "A custom biometric attendance system integrated with ZKTeco devices to track employee attendance across multiple stations. Includes real-time syncing, centralized live monitoring, offline raw attendance uploads, and AI-powered report generation using natural language prompts.",
       image: projectImages[3],
-      tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk Library", "Docker", "Nginx"],
+      tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk", "Docker", "Nginx"],
       github: "https://github.com/Amadou-Marong/ZKTecoGNPC.git",
       live: "#",
     },
