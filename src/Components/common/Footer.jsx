@@ -11,7 +11,7 @@ const links = [
 ];
 
 const socials = [
-  { icon: Github, href: "https://github.com/amadoumarong" },
+  { icon: Github, href: "https://github.com/Amadou-Marong" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/amadou-marong-b27008291/" },
   { icon: Mail, href: "mailto:marongamadou6@gmail.com" },
 ];
