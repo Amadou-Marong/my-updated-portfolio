@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 import PageNotFound from './pages/PageNotFound';
+import { queryClientInstance } from './lib/query-client';
+import { Toaster } from './components/ui/toaster';
 
 const AuthenticatedApp = () => {
   // Render the main app
@@ -13,12 +15,17 @@ const AuthenticatedApp = () => {
 };
 
 
+
 function App() {
 
   return (
-    <Router>
-      <AuthenticatedApp />
-    </Router>
+    <QueryClientProvider client={queryClientInstance}>
+      <Router>
+        <AuthenticatedApp />
+      </Router>
+      <Toaster />
+    </QueryClientProvider>
+    
   )
 }
 
