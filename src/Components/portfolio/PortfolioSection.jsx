@@ -31,7 +31,7 @@ export default function PortfolioSection({ projectImages }) {
       image: projectImages[1],
       tags: ["React.js", "Django", "PostgreSQL"],
       github: "https://github.com/Amadou-Marong/GnpcLeaveSystem-Demo",
-      live: "https://gnpc-leave-system.netlify.app",
+      live: "https://gnpc-leave-management.netlify.app/",
     },
     {
       title: "Ticketing Management System",
