@@ -62,6 +62,7 @@ export default function PortfolioSection({ projectImages }) {
       tags: ["React.js", "Leaflet.js"],
       github: "https://github.com/Amadou-Marong/FleetGPSTracker.git",
       live: "https://fleet-gps-tracker.netlify.app",
+      internal: false,
     },
     {
       title: "Leave Management System",
@@ -71,6 +72,7 @@ export default function PortfolioSection({ projectImages }) {
       tags: ["React.js", "Django", "PostgreSQL"],
       github: "https://github.com/Amadou-Marong/GnpcLeaveSystem-Demo",
       live: "https://gnpc-leave-management.netlify.app/",
+      internal: false,
     },
     {
       title: "Ticketing Management System",
@@ -80,6 +82,7 @@ export default function PortfolioSection({ projectImages }) {
       tags: ["React.js", "Django", "PostgreSQL", "Django Rest Framework", "Django Channels"],
       github: "https://github.com/Amadou-Marong/TickettingHelpdeskManager.git",
       live: "#",
+      internal: true,
     },
     {
       title: "Biometric Time Attendance System",
@@ -89,6 +92,7 @@ export default function PortfolioSection({ projectImages }) {
       tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk", "Docker", "Nginx"],
       github: "https://github.com/Amadou-Marong/ZKTecoGNPC.git",
       live: "#",
+      internal: true,
     },
   ];
 
@@ -160,7 +164,7 @@ export default function PortfolioSection({ projectImages }) {
                     ))}
                   </div>
 
-                  <div className="flex items-center gap-4">
+                  {/* <div className="flex items-center gap-4">
                     <a
                       href={project.github}
                       className="flex items-center gap-2 text-sm font-medium font-inter text-muted-foreground hover:text-primary transition-colors"
@@ -176,6 +180,33 @@ export default function PortfolioSection({ projectImages }) {
                       <span>Live Demo</span>
                       <ArrowUpRight size={14} className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
                     </a>
+                  </div> */}
+                  <div className="flex items-center gap-4 flex-wrap">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm font-medium font-inter text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <Github size={18} />
+                      <span>Source Code</span>
+                    </a>
+
+                    {project.live !== "#" && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm font-medium font-inter text-foreground hover:text-primary transition-colors group/link"
+                      >
+                        <ExternalLink size={18} />
+                        <span>Live Demo</span>
+                        <ArrowUpRight
+                          size={14}
+                          className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"
+                        />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const roles = ["Web Developer", "Frontend Engineer", "UI/UX Enthusiast", "IT Support Specialist"];
+const roles = ["Web Developer", "Software Engineer", "AI Enthusiast", "Problem Solver"];
 
 export default function HeroSection({ profileImage }) {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -105,6 +105,16 @@ export default function HeroSection({ profileImage }) {
                 <span className="text-primary animate-pulse">|</span>
               </span>
             </motion.div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.55 }}
+              className="max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed font-inter mb-10"
+            >
+              I am a passionate web developer and software engineer with a keen interest in AI and Machine Learning. I build modern web applications and internal business systems that solve real operational problems. I am dedicated to creating innovative solutions that solve real-world problems.
+            </motion.p>
+
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
