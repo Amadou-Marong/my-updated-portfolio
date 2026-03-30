@@ -4,7 +4,8 @@ import { Mail, Phone, MapPin, Send, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { toast } from "sonner";
+import { toast } from "../ui/use-toast";
+// import { toast } from "sonner";
 
 const contactInfo = [
   { icon: Mail, label: "Email", value: "marongamadou6@gmail.com", href: "mailto:marongamadou6@gmail.com" },
@@ -30,7 +31,12 @@ export default function ContactSection() {
     setSending(true);
     // Simulate send
     await new Promise((r) => setTimeout(r, 1500));
-    toast.success("Message sent successfully!");
+    // toast.success("Message sent successfully!");
+    toast({
+      title: "Message sent successfully!",
+      description: "We will get back to you as soon as possible.",
+      duration: 5000,
+    });
     setForm({ name: "", email: "", subject: "", message: "" });
     setSending(false);
   };
