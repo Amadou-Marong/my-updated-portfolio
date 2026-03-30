@@ -30,8 +30,8 @@ export default function PortfolioSection({ projectImages }) {
         "A leave management system allowing employees to apply for leaves, view balances, and track history. Includes an approval workflow for managers to review and approve leave requests.",
       image: projectImages[1],
       tags: ["React.js", "Django", "PostgreSQL"],
-      github: "https://github.com/Amadou-Marong/GnpcLeaveSystem.git",
-      live: "#",
+      github: "https://github.com/Amadou-Marong/GnpcLeaveSystem-Demo",
+      live: "https://gnpc-leave-system.netlify.app",
     },
     {
       title: "Ticketing Management System",

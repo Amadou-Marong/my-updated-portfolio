@@ -12,7 +12,7 @@ const links = [
 
 const socials = [
   { icon: Github, href: "https://github.com/amadoumarong" },
-  { icon: Linkedin, href: "https://linkedin.com/in/amadoumarong" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/amadou-marong-b27008291/" },
   { icon: Mail, href: "mailto:marongamadou6@gmail.com" },
 ];
 
@@ -34,8 +34,8 @@ export default function Footer() {
               <span className="text-muted-foreground text-sm font-normal ml-1">.dev</span>
             </div>
             <p className="text-muted-foreground font-inter text-sm leading-relaxed">
-              A passionate web developer and junior software engineer with a keen interest
-              in creating innovative solutions. Let's work together on exciting projects!
+              A passionate web developer and software engineer with a keen interest
+              in AI and Machine Learning. I am dedicated to creating innovative solutions. Let's work together on exciting projects!
             </p>
           </div>
 

@@ -8,7 +8,7 @@ const experiences = [
     role: "Software Developer & IT Support",
     period: "2023 – Present",
     description:
-      "Working with the IT Support team to resolve hardware and software issues. Developed and maintained websites using Vue.js, React.js, Laravel, and Django. Built a Biometric Attendance System with modules for real-time syncing, live monitoring, offline raw attendance file uploads, and attendance report generation. Developed a GPS Fleet Tracker with real-time map tracking, overspeed alerts, trip history, and a driver app. Built a Leave Management System with employee leave applications, balance tracking, and manager approval workflows. Created a Ticketing Management System for IT issue tracking with priority management, status tracking, and assignment workflows.",
+      "Working with the IT Support team to resolve hardware and software issues. Developed and maintained websites using Vue.js, React.js, Laravel, and Django. Built a Biometric Attendance System with modules for real-time syncing, live monitoring, offline raw attendance file uploads, and attendance report generation. Created a Ticketing Management System for IT issue tracking with priority management, status tracking, and assignment workflows.",
     tags: ["Vue.js", "React.js", "Laravel", "Django", "Figma"],
   },
   {
