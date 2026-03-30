@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import PageNotFound from './pages/PageNotFound';
 import { queryClientInstance } from './lib/query-client';
 import { Toaster } from './components/ui/toaster';
+import { QueryClientProvider } from '@tanstack/react-query';
 
 const AuthenticatedApp = () => {
   // Render the main app
