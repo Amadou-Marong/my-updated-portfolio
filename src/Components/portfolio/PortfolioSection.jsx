@@ -45,7 +45,7 @@ export default function PortfolioSection({ projectImages }) {
     {
       title: "Biometric Time Attendance System",
       description:
-        "A custom web-based biometric attendance system integrated with ZKTeco devices to monitor and track employee attendance across multiple stations. Features real-time syncing, centralized live monitoring, offline raw attendance file uploads for unsynced devices, and attendance report generation which includes AI report generation using natural language prompts, also integrated  for efficient workforce management.",
+        "A custom web-based biometric attendance system integrated with ZKTeco devices to monitor and track employee attendance across multiple stations. Features real-time syncing, centralized live monitoring, offline raw attendance file uploads for unsynced devices, and attendance report generation which includes AI report generation using natural language prompts for efficient workforce management.",
       image: projectImages[3],
       tags: ["React.js", "Django", "Django Rest Framework", "PostgreSQL", "Pyzk Library", "Docker", "Nginx"],
       github: "https://github.com/Amadou-Marong/ZKTecoGNPC.git",
