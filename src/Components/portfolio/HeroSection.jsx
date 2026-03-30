@@ -36,7 +36,7 @@ export default function HeroSection({ profileImage }) {
   }, [displayText, isDeleting, roleIndex]);
 
   const socials = [
-    { icon: Github, href: "https://github.com/amadoumarong", label: "GitHub" },
+    { icon: Github, href: "https://github.com/Amadou-Marong", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/amadou-marong-b27008291/", label: "LinkedIn" },
     { icon: Mail, href: "mailto:marongamadou6@gmail.com", label: "Email" },
   ];
