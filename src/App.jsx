@@ -4,12 +4,17 @@ import PageNotFound from './pages/PageNotFound';
 import { queryClientInstance } from './lib/query-client';
 import { Toaster } from './components/ui/toaster';
 import { QueryClientProvider } from '@tanstack/react-query';
+import BiometricAttendancePage from './pages/BiometricAttendancePage';
 
 const AuthenticatedApp = () => {
   // Render the main app
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route
+        path="/projects/biometric-attendance"
+        element={<BiometricAttendancePage />}
+      />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

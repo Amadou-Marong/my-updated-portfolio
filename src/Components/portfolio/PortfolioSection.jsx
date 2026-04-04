@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
+import { ExternalLink, Github, ArrowUpRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -93,6 +94,7 @@ export default function PortfolioSection({ projectImages }) {
       github: "https://github.com/Amadou-Marong/ZKTecoGNPC.git",
       live: "#",
       internal: true,
+      hasDemo: true,
     },
   ];
 
@@ -182,7 +184,7 @@ export default function PortfolioSection({ projectImages }) {
                     </a>
                   </div> */}
                   <div className="flex items-center gap-4 flex-wrap">
-                    <a
+                    {/* <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -206,6 +208,39 @@ export default function PortfolioSection({ projectImages }) {
                           className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"
                         />
                       </a>
+                    )} */}
+
+                     {project.hasDemo ? (
+                      <Link
+                        to="/projects/biometric-attendance"
+                        className="flex items-center gap-2 text-sm font-medium font-inter text-primary bg-primary/10 border border-primary/30 px-4 py-2 rounded-xl hover:bg-primary/20 transition-colors"
+                      >
+                        <Play size={16} />
+                        <span>View Demo</span>
+                        <ArrowUpRight size={14} />
+                      </Link>
+                    ) : (
+                      <>
+                        {project.github && (
+                          <a
+                            href={project.github}
+                            className="flex items-center gap-2 text-sm font-medium font-inter text-muted-foreground hover:text-primary transition-colors"
+                          >
+                            <Github size={18} />
+                            <span>Source Code</span>
+                          </a>
+                        )}
+                        {project.live && (
+                          <a
+                            href={project.live}
+                            className="flex items-center gap-2 text-sm font-medium font-inter text-foreground hover:text-primary transition-colors group/link"
+                          >
+                            <ExternalLink size={18} />
+                            <span>Live Demo</span>
+                            <ArrowUpRight size={14} className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+                          </a>
+                        )}
+                      </>
                     )}
                   </div>
                 </div>
