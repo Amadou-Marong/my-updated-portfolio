@@ -7,23 +7,42 @@ import {
 import { Link } from "react-router-dom";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
-// import Navbar from "../components/portfolio/Navbar";
-// import Footer from "../components/portfolio/Footer";
+
+import LoginPage from "../assets/biometricAttendanceImages/LoginPage.png";
+import DashboardPage from "../assets/biometricAttendanceImages/DashboardPage.png";
+import EmployeeManagementPage from "../assets/biometricAttendanceImages/EmployeeManagementPage.png";
+import DevicesManagementPage from "../assets/biometricAttendanceImages/DevicesManagementPage.png";
+import LiveAttendancePage from "../assets/biometricAttendanceImages/LiveAttendancePage.png";
+import AttendanceLogs from "../assets/biometricAttendanceImages/AttendanceLogs.png";
+import HolidaysPage from "../assets/biometricAttendanceImages/HolidaysPage.png";
+import ManualAttendanceEntryPage from "../assets/biometricAttendanceImages/ManualAttendanceEntryPage.png";
+import ReportsPage from "../assets/biometricAttendanceImages/ReportsPage.png";
+import ReportsGenerated from "../assets/biometricAttendanceImages/ReportsGenerated.png";
+import AttendanceTrends from "../assets/biometricAttendanceImages/AttendanceTrends.png";
+import AIReportsGenerate from "../assets/biometricAttendanceImages/AIReportsGenerate.png";
+import AIReportsGenerated from "../assets/biometricAttendanceImages/AIReportsGenerated.png";
+import GroupConfigurePage from "../assets/biometricAttendanceImages/GroupConfigurePage.png";
+import SettingsPage from "../assets/biometricAttendanceImages/SettingsPage.png";
+
+
+// blurRows: approximate top% offset and height% of the data rows area to blur
 
 const slides = [
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/192c8bd87_LoginPage.png", title: "Login Page", description: "Secure authentication screen for the biometric attendance management system hosted on the GNPC internal network." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/ea97aad6e_DashboardUI.png", title: "Dashboard", description: "Overview of total employees, present today, late arrivals, and active biometric devices with today's attendance table and a live feed panel." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/978fc27a6_EmployeesPage.png", title: "Employee Management", description: "Manage employee profiles and biometric enrollments across all station locations nationwide." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/f6d4ec9c7_DevicesPage.png", title: "Device Management", description: "Monitor and manage ZKTeco biometric devices across 13 locations, tracking online/offline status and last sync times." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/d2f60baaa_LiveAttendance.png", title: "Live Attendance – Today's Summary", description: "Real-time attendance monitoring showing check-in times, estimated hours, and late status for all employees." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/57320c091_AttendanceLogs.png", title: "Attendance Logs", description: "Import and view biometric punch logs from devices, including timestamp, punch type (Morning Out / Night In), and fingerprint verification mode." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/09f9edb83_Holidays.png", title: "Holidays", description: "Manage public holidays and company events with an interactive calendar view and table view." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/de8676b17_Leaves.png", title: "Leave Management", description: "Apply for employee leaves with leave type selection, date picker, and reason field. Supports an approval workflow." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/1853643be_ReportsPage.png", title: "Attendance Reports", description: "Generate attendance reports with date range filtering, showing employee check-in/out, total hours, and status." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/471d68c14_ReportGenerated.png", title: "Generated Report", description: "Detailed analytics: 1,473 present, 1,310 late arrivals, 535 absent across a custom date range — exportable to PDF or Excel." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/5d77c5c3d_GroupSchedules.png", title: "Group Schedule (Timetable)", description: "Configure working days and day override rules per employee group and station." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/4cb1917e1_Accounts.png", title: "Accounts", description: "Manage user accounts and role-based permissions (Admin, HR, Auditor) with status control." },
-  { image: "https://media.base44.com/images/public/69c7dd13155c90cb31ae3e69/d05b7b363_SettingsPage.png", title: "Settings", description: "Configure company information, attendance rules, and security preferences." },
+  { image: LoginPage, title: "Login Page", description: "Secure authentication screen for the biometric attendance management system hosted on the GNPC internal network.", blurRows: null },
+  { image: DashboardPage, title: "Dashboard", description: "Overview of total employees, present today, late arrivals, and active biometric devices with today's attendance table and a live feed panel.", blurRows: { top: "52%", height: "40%" } },
+  { image: EmployeeManagementPage, title: "Employee Management", description: "Manage employee profiles and biometric enrollments across all station locations nationwide.", blurRows: { top: "38%", height: "55%" } },
+  { image: DevicesManagementPage, title: "Device Management", description: "Monitor and manage ZKTeco biometric devices across 13 locations, tracking online/offline status and last sync times.", blurRows: null },
+  { image: LiveAttendancePage, title: "Live Attendance – Today's Summary", description: "Real-time attendance monitoring showing check-in times, estimated hours, and late status for all employees.", blurRows: { top: "44%", height: "48%" } },
+  { image: AttendanceLogs, title: "Attendance Logs", description: "Import and view biometric punch logs from devices, including timestamp, punch type (Morning Out / Night In), and fingerprint verification mode.", blurRows: { top: "48%", height: "45%" } },
+  { image: HolidaysPage, title: "Holidays", description: "Manage public holidays and company events with an interactive calendar view and table view.", blurRows: null },
+  { image: ManualAttendanceEntryPage, title: "Manual Attendance Entry", description: "Manually enter check-in/check-out for employees when device data is unavailable, with reason logging for audit purposes.", blurRows: null },
+  { image: ReportsPage, title: "Attendance Reports", description: "Generate attendance reports with date range filtering, device and group selection, and status breakdown.", blurRows: null },
+  { image: ReportsGenerated, title: "Generated Report", description: "Detailed per-employee report showing clock-in/out, total hours, group, device, and status — exportable to PDF or Excel.", blurRows: { top: "44%", height: "50%" } },
+  { image: AttendanceTrends, title: "Attendance Trends & Analytics", description: "Visual analytics with trend lines, daily status distribution bar charts, average working hours, and an overall attendance pie chart.", blurRows: null },
+  { image: AIReportsGenerate, title: "AI Report Assistant", description: "An AI-powered assistant that lets managers query attendance data in plain English — e.g. 'Show me attendance for this week'.", blurRows: null },
+  { image: AIReportsGenerated, title: "AI-Generated Report", description: "AI instantly returns structured attendance summaries — total employees, present, absent, late arrivals — with named examples blurred for privacy.", blurRows: { top: "38%", height: "55%" } },
+  { image: GroupConfigurePage, title: "Group Schedule Configuration", description: "Configure working days and day override rules per employee group and station.", blurRows: null },
+  { image: SettingsPage, title: "Settings", description: "Configure company information, attendance rules, and security preferences.", blurRows: null },
 ];
 
 const features = [
@@ -74,6 +93,20 @@ function DemoGallery() {
             onClick={() => setLightbox(true)}
           />
         </AnimatePresence>
+
+        {/* Employee data blur overlay */}
+        {slides[current].blurRows && (
+          <div
+            className="absolute left-0 right-0 pointer-events-none"
+            style={{
+              top: slides[current].blurRows.top,
+              height: slides[current].blurRows.height,
+              backdropFilter: "blur(6px)",
+              WebkitBackdropFilter: "blur(6px)",
+              background: "rgba(0,0,0,0.08)",
+            }}
+          />
+        )}
 
         <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 rounded-lg px-2 py-1 flex items-center gap-1 text-white text-xs">
           <ZoomIn size={12} /> Click to zoom
@@ -222,7 +255,7 @@ export default function BiometricAttendancePage() {
               System <span className="text-primary">Demo</span>
             </motion.h2>
             <motion.p variants={fadeInUp} custom={2} className="text-muted-foreground mt-2 font-inter">
-              Browse through all {slides.length} screens of the live system. Use arrow keys or click the arrows to navigate.
+              Browse through all {slides.length} screens of the live system. Employee details are blurred to protect privacy. Use arrow keys or click the arrows to navigate.
             </motion.p>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
