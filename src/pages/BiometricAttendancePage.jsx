@@ -66,7 +66,7 @@ function DemoGallery() {
   const next = () => setCurrent((c) => (c + 1) % slides.length);
   const prev = () => setCurrent((c) => (c - 1 + slides.length) % slides.length);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleKey = (e) => {
       if (e.key === "ArrowRight") next();
       if (e.key === "ArrowLeft") prev();
@@ -94,24 +94,12 @@ function DemoGallery() {
           />
         </AnimatePresence>
 
-        {/* Employee data blur overlay */}
-        {slides[current].blurRows && (
-          <div
-            className="absolute left-0 right-0 pointer-events-none"
-            style={{
-              top: slides[current].blurRows.top,
-              height: slides[current].blurRows.height,
-              backdropFilter: "blur(6px)",
-              WebkitBackdropFilter: "blur(6px)",
-              background: "rgba(0,0,0,0.08)",
-            }}
-          />
-        )}
-
+        {/* Zoom hint */}
         <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 rounded-lg px-2 py-1 flex items-center gap-1 text-white text-xs">
           <ZoomIn size={12} /> Click to zoom
         </div>
 
+        {/* Navigation arrows */}
         <button onClick={prev} className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 flex items-center justify-center text-white transition-colors">
           <ChevronLeft size={20} />
         </button>
@@ -119,6 +107,7 @@ function DemoGallery() {
           <ChevronRight size={20} />
         </button>
 
+        {/* Counter */}
         <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-black/60 rounded-full px-3 py-1 text-white text-xs font-mono">
           {current + 1} / {slides.length}
         </div>
@@ -155,10 +144,17 @@ function DemoGallery() {
             className="fixed inset-0 z-[200] flex items-center justify-center bg-black/95 p-4 cursor-zoom-out"
             onClick={() => setLightbox(false)}
           >
-            <button className="absolute top-4 right-4 w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors" onClick={() => setLightbox(false)}>
+            <button
+              className="absolute top-4 right-4 w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
+              onClick={() => setLightbox(false)}
+            >
               <X size={18} />
             </button>
-            <img src={slides[current].image} alt={slides[current].title} className="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
+            <img
+              src={slides[current].image}
+              alt={slides[current].title}
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+            />
           </motion.div>
         )}
       </AnimatePresence>
