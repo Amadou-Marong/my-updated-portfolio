@@ -15,7 +15,7 @@ import HeroImage from "../assets/newupdate/MyHeroImage.png";
 import FleetTracker from "../assets/newupdate/FleetTracker.png";
 import LeaveSystem from "../assets/newupdate/AllLeaves.png";
 import TicketingManager from "../assets/newupdate/tickets.png";
-import BiometricAttendance from "../assets/newupdate/ReportGenerated.png";
+import BiometricAttendance from "../assets/newupdate/ReportsGenerated.png";
 
 
 const PROFILE_IMAGE = HeroImage;

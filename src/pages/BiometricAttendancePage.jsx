@@ -52,6 +52,7 @@ const features = [
   { icon: FileBarChart, title: "Reports & Analytics", desc: "Generate detailed attendance reports by date range, device, or group — exportable to PDF and Excel." },
   { icon: Calendar, title: "Holidays & Leaves", desc: "Holiday calendar management and a leave application workflow with manager approval." },
   { icon: ShieldCheck, title: "Role-Based Access", desc: "Admin, HR, and Auditor roles with granular permissions across all modules." },
+  { icon: Play, title: "AI Reports Assistant", desc: "Query attendance data in plain English and generate AI-generated reports and insights automatically." },
 ];
 
 const fadeInUp = {
